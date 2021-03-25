@@ -1,0 +1,275 @@
+:root{
+    --color:#70757a;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+html{
+font-size: 62.5%;
+font-family: 'Noto Sans', sans-serif;
+height: 100vh;
+width: 100vw;
+}
+
+img{
+    width: 100%;
+
+}
+
+
+a{
+    color:var(--color);
+
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+
+}
+
+.header__ul {
+    
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    position: relative;
+    top: 0.4rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.header__ul > div{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+}
+
+.header__navLeft{
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    font-size: 1.4rem;
+    left: 3rem;
+font-weight: bold;
+
+}
+
+.header__navLeft li a{
+    left: 1.9rem;   
+
+    position: relative;
+    top: 0.1rem;
+margin: 0 0.95rem;
+}
+
+
+
+.header__navRight{
+
+    justify-content: flex-end;
+position: relative;
+
+top: 0.3rem;
+left: 41.5%;
+
+}
+.header__navRight li{
+
+    align-items: center;
+    justify-content: center;
+}
+
+
+.elements{
+    margin: 0 2%;
+}
+.header__barNavImg__photo{
+
+    width: 3.4rem;
+height: auto;
+border-radius: 50%;
+}
+.header__barNavImg__duts{
+
+    background-image: url('https://static.thenounproject.com/png/756729-200.png');
+    background-repeat: no-repeat;
+
+    background-size: contain;
+    background-position: center;    
+
+    width: 2.5rem;
+    height: auto;
+    
+position: relative;
+right:2.1rem;
+
+}
+
+main{
+    
+    text-align: center;
+
+}
+.main__container{
+    width: 100%;
+    margin: 0 auto;
+    
+
+}
+
+.main__searchContent{
+    
+    align-items: center;
+    position: relative;
+    top: 9.5rem;
+   
+}
+
+.main__googleImg{
+
+    width: 17rem;
+    height: auto;
+
+}
+.main__searchBarContainer{
+    display: flex;
+    justify-content: center;
+
+    align-items: center;
+    position: relative;
+    top: 9.5rem;
+    border: 1px solid#dadce0;
+    width: 87vw;
+    height: 4rem;
+    margin:0 auto;
+    border-radius: 100px;
+
+}
+
+
+.main__searchBarContainer:hover{
+border-color: #dfe1e500;
+box-shadow: 0 1px 6px 0 #20212447;
+
+}
+
+
+
+
+.main__lupa{
+
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Vector_search_icon.svg/945px-Vector_search_icon.svg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 18px;
+    height: 18px;
+}
+
+
+.main__searchBar{
+    border: none;
+    outline: none;
+        width: 79%;
+        height: auto; 
+    }
+    
+
+.main__micro{
+background-image: url('https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png');
+background-position: center;
+background-repeat: no-repeat;
+background-size: contain;
+
+  
+    width: 20px;
+    height:20px;
+    
+    }
+
+
+
+.main__buttons{
+
+    margin:6.5rem auto 0 auto;
+font-size: 1rem;
+
+}
+.main__buttons input{
+    text-align: center;
+    display: inline-block;
+}
+
+
+.btn{ background-color: #f8f9fa;
+    
+    height: 2.9rem;
+    padding: 0 3rem;
+    border: none;
+    outline: none;
+    border-radius: 0.5rem;
+    color: #5f6368;
+margin-left:1rem;
+margin-right:1rem;
+
+}
+
+.btn:hover{
+border: 1px solid #c6c6c6;
+box-shadow: 0 1px 1px rgba(0, 0, 0, 1);
+color: #222;
+
+}
+
+.main__extra{
+    color: #70757a;
+    text-align: center;
+    position: relative;
+    top:4rem;
+    font-size: 1.2rem;
+    
+}
+.main__languages{
+    color: #1a0dab;
+}
+footer{
+    width: 100%;
+    height: auto;
+    background-color: #f2f2f2;
+    position: fixed;
+    bottom: 0;
+left:0;
+right:0;
+}
+footer span{
+    color:#6f6f6f;
+    font-size: 1.7rem;
+position: relative;
+left: 1rem;
+top:1rem
+}
+.footer__divFirst{
+    border-top:1px solid #dadce0 ;
+    margin:2rem;
+}
+
+footer section ul{
+    font-size: 1.3rem;
+    color:#70757a;
+display: flex;
+flex-wrap: wrap;
+flex-direction: row;
+justify-content: center;
+margin:1.5rem;
+}
+
+
+
+footer section ul li{
+margin: 0 1.26rem;    
+}
